@@ -458,7 +458,7 @@ jobs:
           if [ -n "${STOCK_LIST_CONFIG:-}" ]; then
             export STOCK_LIST="$STOCK_LIST_CONFIG"
           elif [ -z "${STOCK_LIST:-}" ]; then
-            export STOCK_LIST="600519"
+            export STOCK_LIST="AVGO,CEG,DIS,GLDM,GOOGL,JPM,KO,LMT,ISRG,META,MSFT,NVDA,SMH,TSM,WMT,XOM,GS,COST,CVX,HL,SPCX,BLNK,UAMY,TLT,MP,CRML,USAR"
           fi
 
           # 处理 LITELLM YAML 配置文件
